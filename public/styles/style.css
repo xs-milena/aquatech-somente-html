@@ -4,21 +4,22 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
+
 .header {
-   border-bottom: 4px solid #32b9cd;
-   background-color: black;
-   padding: 25px;
+    border-bottom: 4px solid #32b9cd;
+    background-color: black;
+    padding: 25px;
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
 .titulo {
-    color:#32b9cd;
+    color: #32b9cd;
     font-size: 30px;
 }
 
@@ -29,12 +30,12 @@
 
 li {
     list-style: none;
-    color:burlywood ;
+    color: burlywood;
     margin-left: 50px;
 }
 
 .agora {
-    font-weight:bold;
+    font-weight: bold;
     color: burlywood;
     list-style: none;
 }
@@ -46,7 +47,7 @@ a {
 
 .banner {
     background-image: url("/public/assets/imgs/bg-jelly-fish-para-home.png");
-    background-size:auto;
+    background-size: auto;
     background-repeat: no-repeat;
     height: 500px;
     display: flex;
@@ -83,7 +84,7 @@ img {
     flex-direction: row;
 }
 
-.box{
+.box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,9 +94,9 @@ img {
 }
 
 .box h4 {
-   color: mediumvioletred;
-   font-weight: 800;
-   margin-bottom: 40px;
+    color: mediumvioletred;
+    font-weight: 800;
+    margin-bottom: 40px;
 }
 
 .footer {
@@ -109,8 +110,8 @@ img {
     flex-direction: column;
 }
 
-h4{
-   font-weight: lighter;
+h4 {
+    font-weight: lighter;
 }
 
 .login {
@@ -123,11 +124,12 @@ h4{
 }
 
 .formulario {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .card-cadastro {
     background-color: rgb(231, 230, 230);
     border-radius: 10px;
@@ -156,17 +158,17 @@ h4{
 }
 
 input {
-       width: 450px;
-       height: 30px;
-       border: #32b9cd 2px solid;
-       border-radius: 10px;
-       text-align: center;
-       margin-bottom: 10px;
+    width: 450px;
+    height: 30px;
+    border: #32b9cd 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 button {
     align-self: center;
-    background-color: rgb(237, 9, 93) ;
+    background-color: rgb(237, 9, 93);
     color: white;
     border-radius: 5px;
     padding: 5px;
